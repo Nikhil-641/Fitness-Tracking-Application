@@ -13,7 +13,7 @@ const app = express();
 
 // CORS
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  origin: ['https://fitness-track-azure.vercel.app'],
   credentials: true,
 }));
 
